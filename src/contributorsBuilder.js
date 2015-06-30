@@ -9,11 +9,11 @@ var users = [],
 Promise.map(players, function(player) {
 	return client.getAsync('/users/' + player, {})
 		.spread(function(status, body, headers) {
-  			users.push(body);
   			console.log('[Script] Contributors total: ' + users.length  + ', statusCode: ' + status)
 	})
 }).then(function() {
-	return fs.writeFileAsync('./src/contributors.js', JSON.stringify(users))
+	var data = 'module.exports = ' + JSON.stringify(users);
+	return fs.writeFileAsync('./src/contributors.js', data)
 		.then(function(json) {
 			console.log('[Script] Finished!')
 		})

@@ -1,0 +1,9 @@
+body {
+	background: #f8f8f8;
+	font: 500 14px helvetica, sans-serif;
+}
+
+li img {
+	width: 200px;
+	height: 200px;
+}

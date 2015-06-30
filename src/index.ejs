@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<title><%= _.page.title %></title>
 </head>
 <body>
-	
+	<% if (_.users.length) { %>
+	<ul>
+		<% _.users.forEach(function(user){ %>
+			<li><img src="<%= user.avatar_url %>"/></li>
+		<% }) %>
+	</ul>
+	<% } %>
 </body>
 </html>

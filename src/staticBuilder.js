@@ -1,13 +1,17 @@
 var fs = require('fs'),
+	contributors = require('./contributors'),
 	kenobi = require('kenobi');
 
 // HOME
 var home = {request: false};
+home.users = contributors;
 home.page = {
 	title: 'Write Code Every Day',
 	description: '',
 	content: ''
 };
+
+console.log(contributors)
 
 kenobi(home, '/src/index.ejs', function(page, res, err) {
 	if (err) 
@@ -18,6 +22,5 @@ kenobi(home, '/src/index.ejs', function(page, res, err) {
 			return console.log('[StaticBuilder] Ocurred a error creating home!', err);
 
 		console.log('[StaticBuilder] Build Success: home')
-		console.log(page);
 	})
 })
