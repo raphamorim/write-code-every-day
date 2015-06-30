@@ -1,0 +1,27 @@
+{
+  "name": "write-code-every-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "staticBuilder.js",
+  "scripts": {
+    "populate": "node src/contributors.js",
+    "static": "./node_modules/.bin/nodemon src/staticBuilder.js",
+    "build": "npm run populate && npm run static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphamorim/write-code-every-day.git"
+  },
+  "author": "Raphael Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphamorim/write-code-every-day/issues"
+  },
+  "homepage": "https://github.com/raphamorim/write-code-every-day#readme",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "kenobi": "^0.2.0",
+    "nodemon": "^1.3.7"
+  }
+}
