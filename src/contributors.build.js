@@ -3,22 +3,22 @@ var Promise = require('bluebird'),
 	octonode = require('octonode'),
 	usersStreaks = require('./contributors.streak')
 	ghStreak = Promise.promisify(require('gh-streak')),
-	players = require('./../players');	
+	challengers = require('./../challengers');	
 
 var users = [],
 	hasChange = false,
 	client = Promise.promisifyAll(octonode.client());
 
-Promise.map(players, function(player) {
-	return client.getAsync('/users/' + player, {})
+Promise.map(challengers, function(challenger) {
+	return client.getAsync('/users/' + challenger, {})
 		.spread(function(status, body, headers) {
-			return ghStreak(player).then(function(currentStreak) {
-				if (!usersStreaks[player] || usersStreaks[player] < currentStreak) {
+			return ghStreak(challenger).then(function(currentStreak) {
+				if (!usersStreaks[challenger] || usersStreaks[challenger] < currentStreak) {
 					hasChange = true;
-					usersStreaks[player] = currentStreak;
+					usersStreaks[challenger] = currentStreak;
 				}
 
-				body.longestStreak = usersStreaks[player];
+				body.longestStreak = usersStreaks[challenger];
 				users.push(body);
   				console.log('[Script] Contributors total: ' + users.length  + ', statusCode: ' + status)	
 			})

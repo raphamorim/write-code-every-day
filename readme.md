@@ -5,7 +5,7 @@ A project to honor those developers who believed in the challenge.
 ## How add yourself to this public list?
 
 1. fork the repository
-2. add your username in `players.js`
+2. add your username in `challengers.js`
 3. run `npm run build`
 4. send a Pull Request
 
