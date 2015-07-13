@@ -2,16 +2,57 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="icon" href="assets/img/favicon.png">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title><%= _.page.title %></title>
 </head>
 <body>
-	<% if (_.users.length) { %>
-	<ul>
-		<% _.users.forEach(function(user){ %>
-			<li><img src="<%= user.avatar_url %>"/></li>
-		<% }) %>
-	</ul>
-	<% } %>
+
+	<header class="header">
+		<h1 class="heading-1">Write Code Every Day</h1>
+		<h2 class="heading-2">A project to honor those developers who believed in the challenge.</h2>
+		<span class="featured-text">Are You Ready?</span>
+		<a href="https://github.com/raphamorim/write-code-every-day" class="btn-default">I accept the challenge</a>
+		<a href="http://ejohn.org/blog/write-code-every-day/" class="btn-default">See more</a>
+	</header>
+
+	<main class="main">
+
+			<% if (_.users.length) { %>
+				<% _.users.forEach(function(user){ %>
+
+					<article class="user">
+						<a href="<%= user.html_url %>">
+							<div class="user-img-mask">
+								<img src="<%= user.avatar_url %>" alt="o nome aqui">
+							</div>
+							<strong class="user-name"><%= user.name %></strong>
+							<span class="user-username">@<%= user.login %></span>
+							<div class="user-stats">
+								Longest streak<br>
+								<span class="streak">365</span> days
+							</div>
+						</a>
+					</article>
+
+				<% }) %>
+			<% } %>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer-up">
+			<small class="credits">
+				Made with love by <a href="https://github.com/raphamorim">Raphael Amorim</a>, <a href="https://github.com/afonsopacifer">Afonso Pacifer</a> and all <a href="https://github.com/raphamorim/write-code-every-day/graphs/contributors">contributors</a>.
+			</small>
+		</div>
+		<div class="footer-down">
+			<small class="licence">
+				<a href="#">Licence</a>
+			</small>
+		</div>
+	</footer>
+
 </body>
 </html>
