@@ -11,8 +11,6 @@ home.page = {
 	content: ''
 };
 
-console.log(contributors)
-
 kenobi(home, '/src/index.ejs', function(page, res, err) {
 	if (err) 
 		return console.log('[StaticBuilder] Ocurred a error building home!', err);

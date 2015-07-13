@@ -4,8 +4,8 @@
   "description": "",
   "main": "staticBuilder.js",
   "scripts": {
-    "populate": "node src/contributors.js",
-    "static": "./node_modules/.bin/nodemon src/staticBuilder.js",
+    "populate": "node src/contributors.build.js",
+    "static": "./node_modules/.bin/nodemon src/static.build.js",
     "build": "npm run populate && npm run static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/raphamorim/write-code-every-day#readme",
   "dependencies": {
     "bluebird": "^2.9.30",
+    "gh-streak": "^1.0.2",
     "kenobi": "^0.2.0",
     "nodemon": "^1.3.7"
   },
