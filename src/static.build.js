@@ -7,8 +7,7 @@ var home = {request: false};
 home.users = contributors;
 home.page = {
 	title: 'Write Code Every Day',
-	description: '',
-	content: ''
+	description: 'A project to honor those developers who believed in the challenge'
 };
 
 kenobi(home, '/src/index.ejs', function(page, res, err) {
