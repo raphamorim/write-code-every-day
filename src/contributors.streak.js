@@ -1,1 +1,1 @@
-module.exports = {"afonsopacifer":73,"israelst":365,"raphamorim":456}
+module.exports = {"afonsopacifer":85,"israelst":365,"raphamorim":456,"rafaelfragosom":0}
