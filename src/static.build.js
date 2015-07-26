@@ -6,6 +6,7 @@ var fs = require('fs'),
 var home = {request: false};
 home.users = contributors;
 home.page = {
+	url: 'http://www.writecodeeveryday.io/',
 	title: 'Write Code Every Day',
 	description: 'A project to honor those developers who believed in the challenge'
 };
