@@ -1,8 +1,8 @@
 ## About
 
-The **Write Code Every Code** is a movement to pass and propagate the idea of daily useful code. The challenge is based on certain rules, which are described in [John Resig's article](http://ejohn.org/blog/write-code-every-day/).
+The **Write Code Every Day** is a movement to pass and propagate the idea of daily useful code. The challenge is based on certain rules, which are described in [John Resig's article](http://ejohn.org/blog/write-code-every-day/).
 
-But basically is write it your code every day and take it as a challenge. The repository only helps you to further strengthen this personal commitment.
+But basically is to write useful code every day and take it as a challenge. The repository only helps you to further strengthen this personal commitment.
 
 ## Read more
 
