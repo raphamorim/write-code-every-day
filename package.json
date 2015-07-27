@@ -27,6 +27,8 @@
     "octonode": "^0.7.1"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
     "stylus": "^0.51.1"
   }
 }
