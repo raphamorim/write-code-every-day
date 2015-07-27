@@ -5,7 +5,8 @@ var players = [
 	'raphamorim',
 	'israelst',
 	'afonsopacifer',
-	'rafaelfragosom'
+	'rafaelfragosom',
+    'alanrsoares'
 ];
 
-module.exports = players; 
+module.exports = players;
