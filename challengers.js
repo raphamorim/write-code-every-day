@@ -2,16 +2,16 @@
 // Add your github user if you accepted the challenge!
 
 var players = [
-	'raphamorim',
-	'israelst',
-	'afonsopacifer',
-	'rafaelfragosom',
+    'raphamorim',
+    'israelst',
+    'afonsopacifer',
+    'rafaelfragosom',
     'brunokinoshita',
-	'paulinhoerry',
-	'enieber',
+    'paulinhoerry',
+    'enieber',
     'alanrsoares',
     'viniciusdacal',
-	'thiagosantana'
+    'thiagosantana'
 ];
 
 module.exports = players;
