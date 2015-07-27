@@ -2,15 +2,15 @@
 
 A project to honor those developers who believed in the challenge.
 
-## How add yourself to this public list?
+## How to add yourself to this public list?
 
 1. fork the repository
 2. install all dependencies with `npm install`
 3. add your username in `challengers.js`
 4. run `npm run build`
-5. send a Pull Reques
+5. send a Pull Request
 
-## How help us?
+## How to help us?
 
 1. Fork it!
 2. Create your feature branch: git checkout -b my-new-feature
