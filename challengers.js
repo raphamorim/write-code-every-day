@@ -10,7 +10,8 @@ var players = [
 	'paulinhoerry',
 	'enieber',
     'alanrsoares',
-    'viniciusdacal'
+    'viniciusdacal',
+	'thiagosantana'
 ];
 
-module.exports = players; 
+module.exports = players;
