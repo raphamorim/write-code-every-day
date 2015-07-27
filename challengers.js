@@ -9,7 +9,8 @@ var players = [
     'brunokinoshita',
 	'paulinhoerry',
 	'enieber',
-    'alanrsoares'
+    'alanrsoares',
+    'viniciusdacal'
 ];
 
 module.exports = players; 
