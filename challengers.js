@@ -8,7 +8,8 @@ var players = [
 	'rafaelfragosom',
     'brunokinoshita',
 	'paulinhoerry',
-	'enieber'
+	'enieber',
+    'alanrsoares'
 ];
 
 module.exports = players; 
