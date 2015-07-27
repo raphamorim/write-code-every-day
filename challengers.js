@@ -2,7 +2,6 @@
 // Add your github user if you accepted the challenge!
 
 var players = [
-<<<<<<< HEAD
     'raphamorim',
     'israelst',
     'afonsopacifer',
@@ -14,14 +13,9 @@ var players = [
     'viniciusdacal',
     'thiagosantana',
     'brunodsgn',
-    'danilorb'
-=======
-	'raphamorim',
-	'israelst',
-	'afonsopacifer',
-	'rafaelfragosom',
-	'douglasPinheiro'
->>>>>>> douglasPinheiro
+    'danilorb',
+    'douglasPinheiro',
+    'michelwilhelm'
 ];
 
 module.exports = players;
