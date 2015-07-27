@@ -6,17 +6,23 @@ var Promise = require('bluebird'),
 	challengers = require('./../challengers');	
 
 var users = [],
-	hasChange = false,
-	client = Promise.promisifyAll(octonode.client());
+	hasChanged = false,
+	client = Promise.promisifyAll(octonode.client('a84bafbf1c7dd7577158f9865076120a444c3259'));
 
 Promise.map(challengers, function(challenger) {
 	return client.getAsync('/users/' + challenger, {})
 		.spread(function(status, body, headers) {
 			return ghStreak(challenger).then(function(currentStreak) {
 				if (!usersStreaks[challenger] || usersStreaks[challenger] < currentStreak) {
-					hasChange = true;
+					hasChanged = true;
 					usersStreaks[challenger] = currentStreak;
 				}
+
+				if (!body.name)
+					body.name = '-';
+
+				if (body.name.length >= 18)
+					body.name = body.name.slice(0, 18);
 
 				body.longestStreak = usersStreaks[challenger];
 				users.push(body);
@@ -24,17 +30,17 @@ Promise.map(challengers, function(challenger) {
 			})
 	})
 }).then(function() {
-	users = users.sort(function(a, b) {
-  		return (a.longestStreak < b.longestStreak);
+	users.sort(function(a, b) {
+  		return parseFloat(a.longestStreak) - parseFloat(b.longestStreak);
 	});
+	users.reverse();
 	var dataContributors = 'module.exports = ' + JSON.stringify(users), 
 		dataContributorsStreak = 'module.exports = ' + JSON.stringify(usersStreaks);
 
 	return fs.writeFileAsync('./src/contributors.js', dataContributors)
 		.then(function(json) {
-			if (hasChange) 
-				return fs.writeFileAsync('./src/contributors.streak.js', dataContributorsStreak)
-
+			if (hasChanged) 
+				return fs.writeFileAsync('./src/contributors.streak.js', dataContributorsStreak);
 			return Promise.resolve();
 		})
 		.then(function() {

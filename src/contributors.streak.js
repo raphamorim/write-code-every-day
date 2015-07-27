@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-module.exports = {"afonsopacifer":88,"israelst":365,"raphamorim":471,"rafaelfragosom":3,"paulinhoerry":0,"brunokinoshita":2,"enieber":0,"alanrsoares":3,"thiagosantana":0,"brunodsgn":0,"danilorb":0,"viniciusdacal":0,"michelwilhelm":0}
-=======
-module.exports = {"afonsopacifer":88,"israelst":365,"raphamorim":471,"rafaelfragosom":3,"paulinhoerry":0,"brunokinoshita":2,"enieber":0,"alanrsoares":3,"thiagosantana":0,"brunodsgn":0,"danilorb":0,"viniciusdacal":0,"joaovsilva":5}
->>>>>>> joaovsilva
+module.exports = {"douglasPinheiro":0,"enieber":0,"brunokinoshita":2,"raphamorim":471,"brunodsgn":0,"michelwilhelm":0,"rafaelfragosom":3,"viniciusdacal":0,"joaovsilva":2,"alanrsoares":3,"rafaelstz":67,"danilorb":0,"afonsopacifer":88,"israelst":365,"thiagosantana":0,"paulinhoerry":0}
