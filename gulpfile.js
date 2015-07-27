@@ -3,7 +3,7 @@ var gulp        = require("gulp"),
 
 /* Compiling SASS files so far */
 gulp.task("build-css", function() {
-	gulp.src([ "./assets/css/sass/**/*.sass", "./assets/css/sass/**/*.scss" ])
+	gulp.src([ "./src/sass/**/*.sass", "./src/sass/**/*.scss" ])
 	   .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
 	   .pipe(gulp.dest("./assets/css/"));	   
 });
