@@ -7,7 +7,7 @@ var Promise = require('bluebird'),
 
 var users = [],
 	hasChanged = false,
-	client = Promise.promisifyAll(octonode.client('a84bafbf1c7dd7577158f9865076120a444c3259'));
+	client = Promise.promisifyAll(octonode.client());
 
 Promise.map(challengers, function(challenger) {
 	return client.getAsync('/users/' + challenger, {})
