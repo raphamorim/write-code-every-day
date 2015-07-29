@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta charset="UTF-8"/>
 	<link rel="icon" href="assets/img/favicon.png">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -26,29 +26,32 @@
 	<meta name="twitter:description" content="<%= _.page.description %>">
 	<meta name="twitter:url" content="<%= _.page.url %>">
 	<meta name="twitter:image" content="http://writecodeeveryday.io/assets/img/header-bg.jpg"/>
+
+	<!-- Android Lollipop theme color -->
+	<meta name="theme-color" content="#6E5494">
 </head>
 <body>
 
-	<header class="header">
+	<header class="header" role="banner">
 		<h1 class="heading-1">Write Code Every Day</h1>
 		<h2 class="heading-2">A project to honor those developers who believed in the challenge.</h2>
 		<span class="featured-text">Are You Ready?</span>
-		<a href="https://github.com/raphamorim/write-code-every-day" class="btn-default">I accept the challenge</a>
-		<a href="https://github.com/raphamorim/write-code-every-day/blob/master/about.md" class="btn-default">See more</a>
+		<a href="https://github.com/raphamorim/write-code-every-day" class="btn-default" role="button">I accept the challenge</a>
+		<a href="https://github.com/raphamorim/write-code-every-day/blob/master/about.md" class="btn-default" role="button">See more</a>
 	</header>
 
-	<main class="main">
+	<main class="main" role="main" itemprop="mainContentOfPage">
 
 			<% if (_.users.length) { %>
 				<% _.users.forEach(function(user){ %>
 
-					<article class="user">
-						<a href="<%= user.html_url %>">
+					<article class="user" itemscope itemtype="http://schema.org/Person">
+						<a itemprop="url" href="<%= user.html_url %>">
 							<div class="user-img-mask">
-								<img src="<%= user.avatar_url %>" alt="<%= user.name %>">
+								<img itemprop="image" src="<%= user.avatar_url %>" alt="<%= user.name %>">
 							</div>
-							<strong class="user-name"><%= user.name %></strong>
-							<span class="user-username">@<%= user.login %></span>
+							<h2 class="user-name" itemprop="name"><%= user.name %></h2>
+							<span class="user-username" itemprop="alternateName">@<%= user.login %></span>
 							<div class="user-stats">
 								Longest streak<br>
 								<span class="streak"><%= user.longestStreak %></span> days
@@ -61,7 +64,7 @@
 
 	</main>
 
-	<footer class="footer">
+	<footer class="footer" role="contentinfo">
 		<div class="footer-up">
 			<small class="credits">
 				Made with love by <a href="https://github.com/raphamorim">Raphael Amorim</a>, <a href="https://github.com/afonsopacifer">Afonso Pacifer</a> and all <a href="https://github.com/raphamorim/write-code-every-day/graphs/contributors">contributors</a>.
