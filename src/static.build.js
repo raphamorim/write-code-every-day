@@ -19,6 +19,6 @@ kenobi(home, '/src/index.ejs', function(page, res, err) {
 		if (err) 
 			return console.log('[StaticBuilder] Ocurred a error creating home!', err);
 
-		console.log('[StaticBuilder] Build Success: home')
-	})
-})
+		console.log('[StaticBuilder] Build Success: home');
+	});
+});

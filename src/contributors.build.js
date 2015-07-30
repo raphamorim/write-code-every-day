@@ -1,9 +1,9 @@
 var Promise = require('bluebird'),
 	fs = Promise.promisifyAll(require('fs')),
 	octonode = require('octonode'),
-	usersStreaks = require('./contributors.streak')
+	usersStreaks = require('./contributors.streak'),
 	ghStreak = Promise.promisify(require('gh-streak')),
-	challengers = require('./../challengers');	
+	challengers = require('./../challengers');
 
 var users = [],
 	hasChanged = false,
@@ -26,9 +26,9 @@ Promise.map(challengers, function(challenger) {
 
 				body.longestStreak = usersStreaks[challenger];
 				users.push(body);
-  				console.log('[Script] Contributors total: ' + users.length  + ', statusCode: ' + status)	
-			})
-	})
+  				console.log('[Script] Contributors total: ' + users.length  + ', statusCode: ' + status);
+			});
+	});
 }).then(function() {
 	users.sort(function(a, b) {
   		return parseFloat(a.longestStreak) - parseFloat(b.longestStreak);
@@ -44,6 +44,6 @@ Promise.map(challengers, function(challenger) {
 			return Promise.resolve();
 		})
 		.then(function() {
-			console.log('[Script] Finished!')
-		})
-})
+			console.log('[Script] Finished!');
+		});
+});
