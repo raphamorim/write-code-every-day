@@ -25,7 +25,8 @@ var players = [
     'vitorleal',
     'IAMFELIPEMATTOS',
     'JulianSansat',
-    'brenopolanski'
+    'brenopolanski',
+    'Pompeu'
 ];
 
 module.exports = players;
