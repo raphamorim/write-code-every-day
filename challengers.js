@@ -28,6 +28,7 @@ var players = [
     'brenopolanski',
     'Pompeu',
     'filipedeschamps',
+    'felipesousa',
     'gpedro',
     'leaofelipe'
 ];
