@@ -40,7 +40,8 @@ var players = [
     'guilouro',
     'pedropolisenso',
     'alfv89',
-    'jugoncalves'
+    'jugoncalves',
+    'guilhermeepaixaoo'
 ];
 
 module.exports = players;
