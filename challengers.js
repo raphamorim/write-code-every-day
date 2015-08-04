@@ -38,7 +38,8 @@ var players = [
     'helquisson',
     'vulcanobr',
     'guilouro',
-    'pedropolisenso'
+    'pedropolisenso',
+    'alfv89'
 ];
 
 module.exports = players;
