@@ -41,7 +41,8 @@ var players = [
     'pedropolisenso',
     'alfv89',
     'jugoncalves',
-    'guilhermeepaixaoo'
+    'guilhermeepaixaoo',
+    'thulioph'
 ];
 
 module.exports = players;
