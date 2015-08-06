@@ -43,11 +43,12 @@ var players = [
     'alfv89',
     'jugoncalves',
     'guilhermeepaixaoo',
-	'morvanabonin',
+    'morvanabonin',
     'andrecgro',
     'thulioph',
     'lucasviola',
     'iceberg20',
+    'hugolnx',
 ];
 
 module.exports = players;
