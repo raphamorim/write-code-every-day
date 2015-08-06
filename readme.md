@@ -18,4 +18,4 @@ A project to honor those developers who believed in the challenge.
 5. Submit a pull request :)
 
 ## License
-Created by and copyright [Raphael Amorin](https://github.com/raphamorim). Released under the [MIT license]().
+Created by and copyright [Raphael Amorim](https://github.com/raphamorim). Released under the [MIT license](https://github.com/raphamorim/write-code-every-day/blob/master/LICENSE).
