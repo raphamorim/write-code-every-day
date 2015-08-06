@@ -52,6 +52,7 @@ var players = [
     'rafael-neri',
     'chocsx',
     'rtancman',
+    'welksonramos',
 ];
 
 module.exports = players;
