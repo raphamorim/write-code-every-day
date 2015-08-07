@@ -56,6 +56,7 @@ var players = [
     'igorsantos07',
     'marabesi',
     'diegosaraujo',
+    'mauriciojunior'
 ];
 
 module.exports = players;
