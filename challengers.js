@@ -60,7 +60,8 @@ var players = [
     'Rodrigo54',
     'woliveiras',
     'AgtLucas',
-    'fredericksilva'
+    'fredericksilva',
+    'theandersonn'
 ];
 
 module.exports = players;
