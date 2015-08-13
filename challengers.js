@@ -16,7 +16,6 @@ var players = [
     'danilorb',
     'douglasPinheiro',
     'michelwilhelm',
-    'joaovsilva',
     'rafaelstz',
     'andersonweb',
     'luhad',

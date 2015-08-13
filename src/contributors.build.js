@@ -13,6 +13,7 @@ var users = [],
 	hasChanged = false,
 	client = Promise.promisifyAll(octonode.client(process.env.GITHUB_TOKEN));
 
+console.log('[contributors.build] Total: ', challengers.length);
 Promise.map(challengers, function(challenger) {
 	return client.getAsync('/users/' + challenger, {})
 		.spread(function(status, body, headers) {
@@ -28,16 +29,12 @@ Promise.map(challengers, function(challenger) {
 					body.name = body.name.slice(0, 18);
 
 				body.longestStreak = usersStreaks[challenger];
-				users.push(body);
-  				console.log('[Script] Contributors total: ' + users.length  + ', statusCode: ' + status);
+				challengers[(challengers.indexOf(challenger))] = body;
+  				console.log('[contributors.build] user: ' + challenger + ' • statusCode: ' + status);
 			})
 	})
 }).then(function() {
-	users.sort(function(a, b) {
-  		return parseFloat(a.longestStreak) - parseFloat(b.longestStreak);
-	});
-	users.reverse();
-	var dataContributors = 'module.exports = ' + JSON.stringify(users), 
+	var dataContributors = 'module.exports = ' + JSON.stringify(challengers), 
 		dataContributorsStreak = 'module.exports = ' + JSON.stringify(usersStreaks);
 
 	return fs.writeFileAsync('./src/contributors.js', dataContributors)
@@ -47,6 +44,6 @@ Promise.map(challengers, function(challenger) {
 			return Promise.resolve();
 		})
 		.then(function() {
-			console.log('[Script] Finished!');
+			console.log('[contributors.build] Finished!');
 		});
 })
