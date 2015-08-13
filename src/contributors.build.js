@@ -3,11 +3,15 @@ var Promise = require('bluebird'),
 	octonode = require('octonode'),
 	usersStreaks = require('./contributors.streak'),
 	ghStreak = Promise.promisify(require('gh-streak')),
-	challengers = require('./../challengers');
+	challengers = require('./../challengers'),
+	env = Promise.promisify(require('node-env-file')),
+	envPath = __dirname + '/../.env';
+
+env(envPath);
 
 var users = [],
 	hasChanged = false,
-	client = Promise.promisifyAll(octonode.client());
+	client = Promise.promisifyAll(octonode.client(process.env.GITHUB_TOKEN));
 
 Promise.map(challengers, function(challenger) {
 	return client.getAsync('/users/' + challenger, {})
@@ -20,16 +24,16 @@ Promise.map(challengers, function(challenger) {
 
 				if (!body.name)
 					body.name = '-';
-
 				if (body.name.length >= 18)
 					body.name = body.name.slice(0, 18);
 
 				body.longestStreak = usersStreaks[challenger];
 				users.push(body);
   				console.log('[Script] Contributors total: ' + users.length  + ', statusCode: ' + status);
-			});
-	});
+			})
+	})
 }).then(function() {
+	console.log(users);
 	users.sort(function(a, b) {
   		return parseFloat(a.longestStreak) - parseFloat(b.longestStreak);
 	});
@@ -46,4 +50,4 @@ Promise.map(challengers, function(challenger) {
 		.then(function() {
 			console.log('[Script] Finished!');
 		});
-});
+})

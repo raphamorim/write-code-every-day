@@ -23,6 +23,7 @@
     "bluebird": "^2.9.30",
     "gh-streak": "^1.0.2",
     "kenobi": "^0.2.0",
+    "node-env-file": "^0.1.7",
     "octonode": "^0.7.1"
   },
   "devDependencies": {

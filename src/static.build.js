@@ -13,12 +13,12 @@ home.page = {
 
 kenobi(home, '/src/index.ejs', function(page, res, err) {
 	if (err) 
-		return console.log('[StaticBuilder] Ocurred a error building home!', err);
+		return console.log('[StaticBuilder] Ocurred a error building!', err);
 
 	fs.writeFile('./index.html', page, function(err) {
 		if (err) 
-			return console.log('[StaticBuilder] Ocurred a error creating home!', err);
+			return console.log('[StaticBuilder] Ocurred a error creating!', err);
 
-		console.log('[StaticBuilder] Build Success: home');
+		console.log('[StaticBuilder] Build Success');
 	});
 });
