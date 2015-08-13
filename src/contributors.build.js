@@ -33,7 +33,6 @@ Promise.map(challengers, function(challenger) {
 			})
 	})
 }).then(function() {
-	console.log(users);
 	users.sort(function(a, b) {
   		return parseFloat(a.longestStreak) - parseFloat(b.longestStreak);
 	});
