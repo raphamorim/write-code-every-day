@@ -71,7 +71,8 @@ var players = [
     'deseao',
     'henriquebelfort',
     'mabrasil',
-    'MacgyverMartins'
+    'MacgyverMartins',
+    'jackmakiyama'
 ];
 
 module.exports = players;
