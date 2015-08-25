@@ -15,8 +15,9 @@ var users = [],
 
 console.log('[contributors.build] Total: ', challengers.length);
 Promise.map(challengers, function(challenger) {
+	console.log('/users/' + challenger)
 	return client.getAsync('/users/' + challenger, {})
-		.spread(function(status, body, headers) {
+		.spread(function(status, body, headers) {			
 			return ghStreak(challenger).then(function(currentStreak) {
 				if (!usersStreaks[challenger] || usersStreaks[challenger] < currentStreak) {
 					hasChanged = true;
@@ -32,6 +33,8 @@ Promise.map(challengers, function(challenger) {
 				challengers[(challengers.indexOf(challenger))] = body;
   				console.log('[contributors.build] user: ' + challenger + ' • statusCode: ' + status);
 			})
+	}).catch(function(e) {
+		console.log(e);
 	})
 }).then(function() {
 	var dataContributors = 'module.exports = ' + JSON.stringify(challengers), 
