@@ -15,7 +15,6 @@ var users = [],
 
 console.log('[contributors.build] Total: ', challengers.length);
 Promise.map(challengers, function(challenger) {
-	console.log('/users/' + challenger)
 	return client.getAsync('/users/' + challenger, {})
 		.spread(function(status, body, headers) {			
 			return ghStreak(challenger).then(function(currentStreak) {
