@@ -74,7 +74,8 @@ var players = [
     'hocraveiro',
     'Gcampes',
     'Nipher',
-    'abysmum'
+    'abysmum',
+    'lnlwd'
 ];
 
 module.exports = players;
