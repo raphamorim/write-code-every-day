@@ -76,7 +76,8 @@ var players = [
     'Nipher',
     'abysmum',
     'lnlwd',
-    'mshmeirelles'
+    'mshmeirelles',
+    'altemberg'
 ];
 
 module.exports = players;
