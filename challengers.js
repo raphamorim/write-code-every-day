@@ -78,7 +78,7 @@ var players = [
     'lnlwd',
     'mshmeirelles',
     'altemberg',
-    'lucasmaiaesilva'
+    'lucasmaiaesilva',
     'zephyru5'
 ];
 
