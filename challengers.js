@@ -74,7 +74,12 @@ var players = [
     'hocraveiro',
     'Gcampes',
     'Nipher',
-    'abysmum'
+    'abysmum',
+    'lnlwd',
+    'mshmeirelles',
+    'altemberg',
+    'lucasmaiaesilva'
+    'zephyru5'
 ];
 
 module.exports = players;
