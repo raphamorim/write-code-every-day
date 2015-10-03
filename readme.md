@@ -1,6 +1,6 @@
 # Write Code Every Day
 
-A project to honor those developers who believed in the challenge.
+A project to honor those developers who believe in the challenge.
 
 ## How to add yourself to this public list?
 
