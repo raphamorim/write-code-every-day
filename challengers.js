@@ -2,7 +2,6 @@
 // Add your github user if you accepted the challenge!
 
 var players = [
-	 'afang',
     'raphamorim',
     'israelst',
     'afonsopacifer',
@@ -80,7 +79,8 @@ var players = [
     'mshmeirelles',
     'altemberg',
     'lucasmaiaesilva',
-    'zephyru5'
+    'zephyru5',
+    'afang',
 ];
 
 module.exports = players;
