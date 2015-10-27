@@ -84,7 +84,7 @@ var players = [
     'mvfsilva',
     'anselmbradford',
     'raulsenaferreira',
-    'leonardo-soares',
+    'leonardosoares',
 ];
 
 module.exports = players;
