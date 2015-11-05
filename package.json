@@ -5,7 +5,7 @@
   "main": "staticBuilder.js",
   "scripts": {
     "populate": "node src/contributors.build.js",
-    "static": "node src/static.build.js",
+    "static": "cp node_modules/nodelist-shuffle/dist/nodelistShuffle.min.js assets/js/nodelistShuffle.min.js && node src/static.build.js",
     "build": "npm run populate && npm run static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
     "gh-streak": "^1.0.2",
     "kenobi": "^0.2.0",
     "node-env-file": "^0.1.7",
+    "nodelist-shuffle": "^0.1.1",
     "octonode": "^0.7.1"
   },
   "devDependencies": {
