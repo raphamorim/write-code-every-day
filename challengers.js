@@ -71,7 +71,6 @@ var players = [
     'mabrasil',
     'MacgyverMartins',
     'jackmakiyama',
-    'jianweichuah',
     'hocraveiro',
     'Gcampes',
     'Nipher',
@@ -86,7 +85,8 @@ var players = [
     'anselmbradford',
     'raulsenaferreira',
     'leonardosoares',
-    'CruiseDevice'
+    'CruiseDevice',
+    'jianweichuah',
 ];
 
 module.exports = players;
