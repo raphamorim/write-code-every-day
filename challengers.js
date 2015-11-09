@@ -71,6 +71,7 @@ var players = [
     'mabrasil',
     'MacgyverMartins',
     'jackmakiyama',
+    'jianweichuah',
     'hocraveiro',
     'Gcampes',
     'Nipher',
