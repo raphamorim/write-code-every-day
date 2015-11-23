@@ -88,7 +88,8 @@ var players = [
     'CruiseDevice',
     'jianweichuah',
     'andreabadesso',
-    'johnynogueira'
+    'johnynogueira',
+    'Molax'
 ];
 
 module.exports = players;
