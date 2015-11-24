@@ -89,6 +89,7 @@ var players = [
     'jianweichuah',
     'andreabadesso',
     'johnynogueira',
+    'karlpatrickespiritu',
     'Molax',
 ];
 
