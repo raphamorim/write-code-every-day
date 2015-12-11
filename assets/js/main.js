@@ -1,5 +1,20 @@
 'use strict';
 
+(function(){
+  var elem = document.querySelector('.personal-commitment');
+  var opts = {
+    typeSpeed: 80,
+    deleteSpeed: 80,
+    pauseDelay: 3000,
+    loop: true,
+    postfix: ''
+  };
+  malarkey(elem, opts).type(' Day').pause().delete()
+                      .type(' Week').pause().delete()
+                      .type(' Month').pause().delete()
+                      .type('where ;)').pause().delete();
+})();
+
 var randomChallengers = (function() {
 
   var nodeListToArray = function(childNodes) {
@@ -14,8 +29,8 @@ var randomChallengers = (function() {
 
   var arrayToNodeList = function(childNodes) {
     var nodelist = "";
-    
-    for (var i = 0; i < childNodes.length; i++) { 
+
+    for (var i = 0; i < childNodes.length; i++) {
           nodelist += childNodes[i].outerHTML;
     }
 
@@ -32,9 +47,9 @@ var randomChallengers = (function() {
 
     return array;
   };
-  
+
   var random = function(parentNodeEl, childNodeClass) {
-    var parentNode = document.getElementsByTagName(parentNodeEl), 
+    var parentNode = document.getElementsByTagName(parentNodeEl),
         childNodes = parentNode[0].getElementsByClassName(childNodeClass);
 
     // Convert nodelist to array
@@ -45,7 +60,7 @@ var randomChallengers = (function() {
 
     // Convert array back to nodelist
     childNodes = arrayToNodeList(childNodes);
-    
+
     // Replace the parentNode content with the sorted childNodes
     parentNode[0].innerHTML = childNodes;
   };
