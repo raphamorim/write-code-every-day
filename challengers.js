@@ -91,7 +91,9 @@ var players = [
     'johnynogueira',
     'karlpatrickespiritu',
     'Molax',
-    'chroda'
+    'chroda',
+    'Adejair',
+    'gkal19',
 ];
 
 module.exports = players;
