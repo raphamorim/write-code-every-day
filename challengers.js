@@ -95,6 +95,7 @@ var players = [
     'Adejair',
     'gkal19',
     'naltun',
+    'shyam12860'
 ];
 
 module.exports = players;
