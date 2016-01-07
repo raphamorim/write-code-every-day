@@ -38,7 +38,7 @@ var players = [
     'guilouro',
     'pedropolisenso',
     'jozadaquebatista',
-    'jugoncalves',
+    'cyberglot',
     'guilhermeepaixaoo',
     'morvanabonin',
     'andrecgro',

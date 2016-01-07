@@ -33,6 +33,8 @@ Promise.map(challengers, function(challenger) {
   				console.log('[contributors.build] user: ' + challenger + ' • statusCode: ' + status);
 			})
 	}).catch(function(e) {
+		if (e.statusCode && e.statusCode === 404)
+			console.log('404: ', challenger)
 		console.log(e);
 	})
 }).then(function() {
