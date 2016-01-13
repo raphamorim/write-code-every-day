@@ -99,6 +99,7 @@ var players = [
     'snaka',
     'jeanbauer',
     'PabloDinella',
+    'matheus-manoel',
 ];
 
 module.exports = players;
