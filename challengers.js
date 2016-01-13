@@ -97,8 +97,8 @@ var players = [
     'naltun',
     'shyam12860',
     'snaka',
-	'jeanbauer',
-    'PabloDinella'
+    'jeanbauer',
+    'PabloDinella',
 ];
 
 module.exports = players;
