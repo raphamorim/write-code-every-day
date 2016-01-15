@@ -101,6 +101,7 @@ var players = [
     'PabloDinella',
     'matheus-manoel',
     'onlurking',
+    'lazarofl'
 ];
 
 module.exports = players;
