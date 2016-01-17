@@ -74,7 +74,6 @@ var players = [
     'hocraveiro',
     'Gcampes',
     'Nipher',
-    'abysmum',
     'lnlwd',
     'mshmeirelles',
     'altemberg',
