@@ -103,6 +103,7 @@ var players = [
     'onlurking',
     'lazarofl',
     'ricardosllm',
+    'Dborah',
 ];
 
 module.exports = players;
