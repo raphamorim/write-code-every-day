@@ -97,7 +97,13 @@ var players = [
     'naltun',
     'shyam12860',
     'snaka',
-	'jeanbauer',
+    'jeanbauer',
+    'PabloDinella',
+    'matheus-manoel',
+    'onlurking',
+    'lazarofl',
+    'ricardosllm',
+    'Dborah',
 ];
 
 module.exports = players;
