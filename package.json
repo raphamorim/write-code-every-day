@@ -1,12 +1,12 @@
 {
   "name": "write-code-every-day",
   "version": "1.0.0",
-  "description": "",
-  "main": "staticBuilder.js",
+  "description": "A project to honor those developers who believed in the challenge",
+  "main": "src/static.build.js",
   "scripts": {
     "populate": "node src/contributors.build.js",
     "static": "node src/static.build.js",
-    "build": "npm run populate && npm run static",
+    "build": "sh scripts/update-site.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
