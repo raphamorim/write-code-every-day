@@ -107,7 +107,8 @@ var players = [
     'matheuswd',
     'hevertoncastro',
     'alexwbuschle',
-    'diogomoretti'
+    'diogomoretti',
+    'willianschenkel'
 ];
 
 module.exports = players;
