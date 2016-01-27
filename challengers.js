@@ -108,8 +108,13 @@ var players = [
     'hevertoncastro',
     'alexwbuschle',
     'diogomoretti',
+<<<<<<< HEAD
     'willianschenkel'
     'hammy25'
+=======
+    'willianschenkel',
+    'gabrieldeveloper'
+>>>>>>> eb91ca7b9bbe453b76de837df990c749bc18c114
 ];
 
 module.exports = players;
