@@ -109,6 +109,7 @@ var players = [
     'alexwbuschle',
     'diogomoretti',
     'willianschenkel'
+    'hammy25'
 ];
 
 module.exports = players;
