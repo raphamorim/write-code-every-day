@@ -113,7 +113,7 @@ var players = [
     'gabrieldeveloper',
     'hammy25',
     'riquellopes',
-    'grvcoelho'
+    'grvcoelho',
     'sujcho'
 ];
 
