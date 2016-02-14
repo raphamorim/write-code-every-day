@@ -115,7 +115,8 @@ var players = [
     'riquellopes',
     'grvcoelho',
     'sujcho',
-    'jakedex'
+    'jakedex',
+    'andreicek'
 ];
 
 module.exports = players;
