@@ -4,6 +4,7 @@
 var players = [
     'raphamorim',
     'israelst',
+    'guisouza',
     'afonsopacifer',
     'rafaelfragosom',
     'paulinhoerry',
