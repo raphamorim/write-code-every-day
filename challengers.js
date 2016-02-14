@@ -120,6 +120,7 @@ var players = [
     'SambitAcharya',
     'caarlos0',
     'andreicek',
+    'lccezinha'
 ];
 
 module.exports = players;
