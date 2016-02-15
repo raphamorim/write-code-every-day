@@ -2,7 +2,7 @@
 // Add your github user if you accepted the challenge!
 
 var players = [
-	'renanidc',
+    'renanidc',
     'raphamorim',
     'israelst',
     'guisouza',
