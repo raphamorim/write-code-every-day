@@ -126,6 +126,7 @@ var players = [
     'CesarNobre',
     'mauriciojr',
     'gnomex',
+    'xrexonx',
 ];
 
 module.exports = players;
