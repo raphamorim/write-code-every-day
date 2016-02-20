@@ -123,7 +123,8 @@ var players = [
     'lccezinha',
     'deividi86',
     'renanidc',
-    'CesarNobre'
+    'CesarNobre',
+    'mauriciojr'
 ];
 
 module.exports = players;
