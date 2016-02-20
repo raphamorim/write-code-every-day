@@ -124,7 +124,8 @@ var players = [
     'deividi86',
     'renanidc',
     'CesarNobre',
-    'mauriciojr'
+    'mauriciojr',
+    'gnomex',
 ];
 
 module.exports = players;
