@@ -94,6 +94,7 @@ var players = [
     'chroda',
     'Adejair',
     'gkal19',
+<<<<<<< HEAD
     'naltun',
     'shyam12860',
     'snaka',
@@ -128,6 +129,7 @@ var players = [
     'gnomex',
     'xrexonx',
     'adichat',
+    'Khwilo',
 ];
 
 module.exports = players;
