@@ -94,7 +94,6 @@ var players = [
     'chroda',
     'Adejair',
     'gkal19',
-<<<<<<< HEAD
     'naltun',
     'shyam12860',
     'snaka',
@@ -110,7 +109,6 @@ var players = [
     'hevertoncastro',
     'alexwbuschle',
     'diogomoretti',
-    'willianschenkel',
     'willianschenkel',
     'gabrieldeveloper',
     'hammy25',
