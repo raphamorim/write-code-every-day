@@ -130,6 +130,7 @@ var players = [
     'Khwilo',
     'lamenezes',
     'RodrigoDev',
+    'Cigarent',
 ];
 
 module.exports = players;
