@@ -131,6 +131,7 @@ var players = [
     'lamenezes',
     'RodrigoDev',
     'Cigarent',
+    'medeirosthiiago',
 ];
 
 module.exports = players;
