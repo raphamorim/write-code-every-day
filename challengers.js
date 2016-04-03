@@ -140,8 +140,9 @@ var players = [
     'guicheffer',
     'felladrin',
     'gustavoteodoro',
-	'MirzaI',
-    'mikesprague'
+    'MirzaI',
+    'mikesprague',
+    'cauealves'
 ];
 
 module.exports = players;
