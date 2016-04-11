@@ -79,7 +79,6 @@ var players = [
     'altemberg',
     'lucasmaiaesilva',
     'zephyru5',
-    'afang',
     'mvfsilva',
     'anselmbradford',
     'raulsenaferreira',
