@@ -12,7 +12,6 @@ var players = [
     'alanrsoares',
     'viniciusdacal',
     'thiagosantana',
-    'brunodsgn',
     'danilorb',
     'douglasPinheiro',
     'michelwilhelm',
