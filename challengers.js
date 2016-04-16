@@ -146,7 +146,8 @@ var players = [
     'eltonvs',
     'duyetdev',
     'diego-soares',
-    'suuuzi'
+    'suuuzi',
+    'ahmed'
 ];
 
 module.exports = players;
