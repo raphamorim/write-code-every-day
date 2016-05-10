@@ -150,7 +150,8 @@ var players = [
     'ahmed',
     'danilovaz'
     'yurialessandro',
-    'SaiUpadhyayula'
+    'SaiUpadhyayula',
+    'thangluu'
 ];
 
 module.exports = players;
