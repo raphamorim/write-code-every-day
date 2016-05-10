@@ -6,6 +6,7 @@ var players = [
     'israelst',
     'guisouza',
     'afonsopacifer',
+    'shakegioh',
     'rafaelfragosom',
     'paulinhoerry',
     'enieber',
