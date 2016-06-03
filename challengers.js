@@ -152,8 +152,14 @@ var players = [
     'danilovaz'
     'yurialessandro',
     'SaiUpadhyayula',
+<<<<<<< HEAD
     'thangluu',
     'shakegioh',
+=======
+    'felipemfp',
+    'chicobentojr',
+    'MariiaKravtsova'
+>>>>>>> 09d9fc4dbd0b6b9e759a16dd79fb802ab06ff41b
 ];
 
 module.exports = players;
