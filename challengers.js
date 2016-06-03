@@ -148,8 +148,11 @@ var players = [
     'diego-soares',
     'suuuzi',
     'ahmed',
-    'danilovaz',
-    'igoreliasm'
+    'igoreliasm',
+    'danilovaz'
+    'yurialessandro',
+    'SaiUpadhyayula',
+    'thangluu'
 ];
 
 module.exports = players;
