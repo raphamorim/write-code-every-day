@@ -155,7 +155,8 @@ var players = [
     'chicobentojr',
     'MariiaKravtsova'
     'madalchemist',
-    'alessandroanjos'
+    'alessandroanjos',
+    'crazysj'
 ];
 
 module.exports = players;
