@@ -157,7 +157,8 @@ var players = [
     'MariiaKravtsova'
     'madalchemist',
     'alessandroanjos',
-    'fauverism'
+    'fauverism',
+    'fernandoguedes'
 ];
 
 module.exports = players;
