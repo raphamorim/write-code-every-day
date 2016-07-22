@@ -157,6 +157,7 @@ var players = [
     'MariiaKravtsova'
     'madalchemist',
     'alessandroanjos',
+    'lai32290',
     'fauverism'
 ];
 
