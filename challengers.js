@@ -149,7 +149,7 @@ var players = [
     'diego-soares',
     'suuuzi',
     'ahmed',
-    'danilovaz'
+    'danilovaz',
     'yurialessandro',
     'SaiUpadhyayula',
     'felipemfp',
