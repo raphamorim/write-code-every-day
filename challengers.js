@@ -158,7 +158,17 @@ var players = [
     'madalchemist',
     'alessandroanjos',
     'fauverism',
-    'hemersonvianna'
+    'hemersonvianna',
+    'igoreliasm',
+    'shokun39',
+    'shakegioh',
+    'crazysj',
+    'devmath',
+    'lsgoulart',
+    'fernandoguedes',
+    'lai32290',
+    'arthurvasconcelos',
+    'luancuba',
 ];
 
 module.exports = players;
