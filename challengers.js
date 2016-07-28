@@ -155,7 +155,6 @@ var players = [
     'felipemfp',
     'chicobentojr',
     'MariiaKravtsova',
-    'madalchemist',
     'alessandroanjos',
     'fauverism',
     'hemersonvianna',
