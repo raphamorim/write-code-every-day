@@ -166,6 +166,7 @@ var players = [
     'lai32290',
     'arthurvasconcelos',
     'luancuba',
+    'alesshh'
 ];
 
 module.exports = players;
