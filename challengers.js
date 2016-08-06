@@ -150,7 +150,6 @@ var players = [
     'danilovaz',
     'yurialessandro',
     'SaiUpadhyayula',
-    'thangluu',
     'shakegioh',
     'felipemfp',
     'chicobentojr',
