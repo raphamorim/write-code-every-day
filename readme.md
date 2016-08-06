@@ -1,5 +1,7 @@
 # Write Code Every Day
 
+### This project is no longer maintained
+
 A project to honor those developers who believe in the challenge.
 
 ## How to add yourself to this public list?
