@@ -39,7 +39,7 @@ var players = [
     'pedropolisenso',
     'jozadaquebatista',
     'cyberglot',
-    'guilhermeepaixaoo',
+    'gpaixao',
     'morvanabonin',
     'andrecgro',
     'thulioph',
