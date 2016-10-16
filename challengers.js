@@ -139,7 +139,7 @@ var players = [
     'gustavoteodoro',
     'MirzaI',
     'mikesprague',
-    'cauealves',
+    'ceasbz',
     'nbfontana',
     'matheuspoleza',
     'eltonvs',
