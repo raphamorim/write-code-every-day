@@ -7,6 +7,7 @@ var players = [
     'guisouza',
     'khaosdoctor',
     'afonsopacifer',
+    'shakegioh',
     'rafaelfragosom',
     'paulinhoerry',
     'enieber',
