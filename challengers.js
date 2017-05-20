@@ -2,6 +2,7 @@
 // Add your github user if you accepted the challenge!
 
 var players = [
+    'andrew-mikhailov',
     'raphamorim',
     'israelst',
     'guisouza',
