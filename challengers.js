@@ -167,7 +167,8 @@ var players = [
     'lai32290',
     'arthurvasconcelos',
     'luancuba',
-    'alesshh'
+    'alesshh',
+    'tk1to'
 ];
 
 module.exports = players;
