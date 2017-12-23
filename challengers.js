@@ -168,7 +168,8 @@ var players = [
     'arthurvasconcelos',
     'luancuba',
     'alesshh',
-    'walkerrandolphsmith'
+    'walkerrandolphsmith',
+    'Paliao'
 ];
 
 module.exports = players;
